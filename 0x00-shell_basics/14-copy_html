@@ -1,2 +1,2 @@
 #!/bin/bash
-cp *.html -type f -newer "$(dirname "$(pwd)")"
+find . -maxdepth 1 -name "*.html" -type f -newer "$(dirname "$(pwd)")"/{} -exec cp -u {} "$(dirname "$(pwd)")" \
