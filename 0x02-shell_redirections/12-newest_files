@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | grep -v '^d' | head -n 10 | awk '{ print $9 }'
+echo -lt | grep -v '^d' | head -n 10 | awk '{ print $9 }'
