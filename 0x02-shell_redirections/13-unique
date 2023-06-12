@@ -1,2 +1,2 @@
 #!/bin/bash
-readarray -t words && printf "%s\n" "${words[@]}" | awk 'NR==FNR { count[$0]++; next } count[$0]==1' - | sort
+readarray -t words | awk 'NR==FNR { count[$0]++; next } count[$0]==1' - | sort
