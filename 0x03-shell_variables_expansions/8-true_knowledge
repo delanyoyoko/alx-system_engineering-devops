@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(($TRUEKNOWLEDGE+$TRUEKNOWLEDGE))\n"
+echo "$TRUEKNOWLEDGE\n$(($TRUEKNOWLEDGE+89))"
