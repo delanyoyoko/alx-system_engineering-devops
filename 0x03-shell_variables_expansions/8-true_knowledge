@@ -1,0 +1,2 @@
+#!/bin/bash
+TRUEKNOWLEDGE="$((89+39))\n"
